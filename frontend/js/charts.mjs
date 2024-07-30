@@ -182,9 +182,9 @@ export async function update_monthly_chart(chart, analytics, key)
 
     console.log("vals " + values);
     
-    chart.updateOptions({
-	xaxis: {categories: keys},
-	series: [{ name: "Series 1", data: values}]
-    });
+    // chart.updateOptions({
+    // 	xaxis: {categories: keys},
+    // 	series: [{ name: "Series 1", data: values}]
+    // });
 }
 
